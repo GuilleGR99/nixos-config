@@ -2,6 +2,11 @@
 
 {
 
+  home.file = {
+    ".config/niri/config.kdl".source =
+      ./dotfiles/niri/config.kdl;
+  };
+
   imports = [
     inputs.noctalia.homeModules.default
     ./modules/home/packages.nix
