@@ -11,9 +11,11 @@
     obsidian
     python3
     qbittorrent
+    tailscale
     tmux
     tree
     vlc
+    wireshark
     zed-editor
   ];
 }

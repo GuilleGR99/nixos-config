@@ -20,5 +20,4 @@
   programs.home-manager.enable = true;
   programs.noctalia-shell.enable = true;
 
-
 }

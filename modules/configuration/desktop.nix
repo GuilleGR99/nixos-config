@@ -8,6 +8,8 @@
     variant = "winkeys";
   };
 
+  services.tailscale.enable = true;
+
   services.udisks2.enable = true;
   services.gvfs.enable = true;
 
