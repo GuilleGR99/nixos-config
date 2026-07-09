@@ -13,6 +13,7 @@
       ./modules/configuration/hardware.nix
       ./modules/configuration/localization.nix
       ./modules/configuration/desktop.nix
+      ./modules/networking/protonvpn.nix
     ];
 
   # Bootloader.
