@@ -43,7 +43,8 @@
 
   # List packages installed in system profile. To search, run:
   environment.systemPackages = with pkgs; [
-     pkgs.nautilus
+     nautilus
+     xwayland-satellite
   ];
 
   system.stateVersion = "26.05";
