@@ -45,6 +45,9 @@
   environment.systemPackages = with pkgs; [
      nautilus
      xwayland-satellite
+     pcsx2
+     vulkan-tools
+
   ];
 
   system.stateVersion = "26.05";
