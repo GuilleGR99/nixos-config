@@ -47,6 +47,8 @@
      xwayland-satellite
      pcsx2
      vulkan-tools
+     brightnessctl
+
 
   ];
 
