@@ -77,7 +77,7 @@ binds {
       spawn "noctalia-shell" "ipc" "call" "launcher" "toggle";
     }
     Mod+L hotkey-overlay-title="Lock Screen" {
-    spawn "noctalia-shell" "ipc" "call" "lock-screen";
+    spawn "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend";
     }
 
     Mod+B hotkey-overlay-title="Open Browser: Firefox" { spawn "firefox"; }
