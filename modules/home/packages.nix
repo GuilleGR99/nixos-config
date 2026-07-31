@@ -17,5 +17,7 @@
     vlc
     wireshark
     zed-editor
+    uv
+
   ];
 }
