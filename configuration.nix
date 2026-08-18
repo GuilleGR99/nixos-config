@@ -36,6 +36,9 @@
     shell = pkgs.zsh;
   };
 
+  programs.noctalia-greeter = {
+    enable = true;
+  };
   programs.zsh.enable = true;
 
   # Allow unfree packages
