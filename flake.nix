@@ -12,6 +12,10 @@
       url = "github:noctalia-dev/noctalia";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    noctalia-greeter = {
+      url = "github:noctalia-dev/noctalia-greeter";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs@{ nixpkgs, home-manager, noctalia, ... }:
@@ -23,6 +27,7 @@
         ./configuration.nix
 
         home-manager.nixosModules.home-manager
+        inputs.noctalia-greeter.nixosModules.default
 
         {
           home-manager.useGlobalPkgs = true;
