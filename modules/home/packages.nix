@@ -3,6 +3,8 @@
 let
   texlive = pkgs.texliveBasic.withPackages (ps: with ps; [
     babel # international languges support
+    babel-spanish # support spanish
+    babel-english # support english
     latexmk # compilation engine
   ]);
 in
