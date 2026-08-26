@@ -18,6 +18,11 @@
     wireshark
     zed-editor
     uv
+    texliveBasic.withPackages (
+        ps: with ps; [
+          babel
+        ]
+    );
 
   ];
 }
