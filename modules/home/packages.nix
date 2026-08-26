@@ -1,5 +1,11 @@
 { pkgs, ... }:
 
+let
+  texlive = pkgs.texliveBasic.withPackages (ps: with ps; [
+    babel
+  ]);
+in
+
 {
   home.packages = with pkgs; [
     file-roller
@@ -18,11 +24,6 @@
     wireshark
     zed-editor
     uv
-    texliveBasic.withPackages (
-        ps: with ps; [
-          babel
-        ]
-    );
-
+    texlive
   ];
 }
