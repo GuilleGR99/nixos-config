@@ -2,7 +2,8 @@
 
 let
   texlive = pkgs.texliveBasic.withPackages (ps: with ps; [
-    babel
+    babel # international languges support
+    latexmk # compilation engine
   ]);
 in
 
@@ -25,5 +26,6 @@ in
     zed-editor
     uv
     texlive
+    texlab
   ];
 }
