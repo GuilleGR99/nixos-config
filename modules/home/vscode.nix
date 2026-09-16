@@ -13,6 +13,9 @@
 
       # Ruff
       charliermarsh.ruff
+
+      # LaTeX
+      james-yu.latex-workshop
     ];
   };
 }
