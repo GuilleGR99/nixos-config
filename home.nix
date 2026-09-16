@@ -12,6 +12,7 @@
     ./modules/home/packages.nix
     ./modules/home/zsh.nix
     ./modules/home/tmux.nix
+    ./modules/home/vscode.nix
   ];
   home.username = "g";
   home.homeDirectory = "/home/g";
