@@ -29,5 +29,6 @@ in
     uv
     texlive
     texlab
+    gcc
   ];
 }
